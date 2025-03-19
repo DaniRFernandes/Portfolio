@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+}
+
+:is(h1, p) {
+    font-family: Segoe UI, sans-serif;
+}
+
+:is(h1) {
+    text-align: center;
+}
+
+:is(h2, h3) {
+    font-family: Segoe UI Semibold, sans-serif;
+}
+
+:is(p) {
+    font-size: 1rem;
+}
+
+:is(abbr) {
+    color: blue;
+}
+
+main {
+    padding: 0.5cm;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+br {
+    margin-bottom: 20px;
+}
+
+.picto {
+    vertical-align: middle;
+
+    height: 20px;
+}

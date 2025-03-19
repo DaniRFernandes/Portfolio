@@ -1,0 +1,17 @@
+:is(h2, h3, p) {
+    text-align: center;
+}
+
+.photo-perso {
+    margin: 0.5rem;
+    margin-bottom: 0rem;
+
+    width: 10cm;
+
+    border: 2px solid black;
+}
+
+.photo-perso + p {
+    margin: 0.5rem;
+    font-style: italic;
+}

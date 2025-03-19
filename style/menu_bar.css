@@ -1,0 +1,29 @@
+header {
+    background-color: darkblue;
+    padding: 0.5cm;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li, header ul li a {
+    display: inline-block;
+    margin-right: 1cm;
+
+    color: white;
+
+    font-family: Segoe UI, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+
+    transition: color 100ms, font-weight 100ms;
+}
+
+header ul li a:hover {
+    color: lightgray;
+}
+
+#current-page {
+    font-weight: bolder;
+}
